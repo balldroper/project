@@ -1,0 +1,16 @@
+{"timestamp": "2025-06-29T13:01:42.000Z", "user_id": "A", "action": "login", "resource": "platform", "resource_id": "", "ip_address": "10.10.1.2", "status": "success", "details": ""}
+{"timestamp": "2025-06-29T13:05:00.000Z", "user_id": "B", "action": "login", "resource": "platform", "resource_id": "", "ip_address": "10.10.1.3", "status": "success", "details": ""}
+{"timestamp": "2025-06-29T13:07:24.000Z", "user_id": "C", "action": "login", "resource": "platform", "resource_id": "", "ip_address": "10.10.1.4", "status": "success", "details": ""}
+{"timestamp": "2025-06-29T13:10:15.000Z", "user_id": "A", "action": "deploy", "resource": "firewall", "resource_id": "fw001", "ip_address": "10.10.1.2", "status": "success", "details": "deployed WAF rule set v3.2"}
+{"timestamp": "2025-06-29T13:13:11.000Z", "user_id": "B", "action": "scan", "resource": "webapp", "resource_id": "app01", "ip_address": "10.10.1.3", "status": "success", "details": "nmap scan - found open port 8080"}
+{"timestamp": "2025-06-29T13:15:22.000Z", "user_id": "C", "action": "deploy", "resource": "IDS", "resource_id": "ids001", "ip_address": "10.10.1.4", "status": "success", "details": "enabled anomaly detection"}
+{"timestamp": "2025-06-29T13:17:45.000Z", "user_id": "A", "action": "patch", "resource": "webapp", "resource_id": "app01", "ip_address": "10.10.1.2", "status": "success", "details": "patched SQL injection vulnerability"}
+{"timestamp": "2025-06-29T13:20:03.000Z", "user_id": "B", "action": "exploit", "resource": "webapp", "resource_id": "app01", "ip_address": "10.10.1.3", "status": "fail", "details": "SQLi exploit blocked by WAF"}
+{"timestamp": "2025-06-29T13:22:30.000Z", "user_id": "B", "action": "scan", "resource": "database", "resource_id": "db01", "ip_address": "10.10.1.3", "status": "success", "details": "found open port 3306"}
+{"timestamp": "2025-06-29T13:23:51.000Z", "user_id": "C", "action": "deploy", "resource": "honeypot", "resource_id": "hp001", "ip_address": "10.10.1.4", "status": "success", "details": "deployed mysql honeypot"}
+{"timestamp": "2025-06-29T13:26:09.000Z", "user_id": "A", "action": "monitor", "resource": "IDS", "resource_id": "ids001", "ip_address": "10.10.1.2", "status": "success", "details": "reviewed recent alerts"}
+{"timestamp": "2025-06-29T13:29:17.000Z", "user_id": "B", "action": "exploit", "resource": "database", "resource_id": "db01", "ip_address": "10.10.1.3", "status": "fail", "details": "honeypot detected attacker signature"}
+{"timestamp": "2025-06-29T13:31:31.000Z", "user_id": "C", "action": "block", "resource": "firewall", "resource_id": "fw001", "ip_address": "10.10.1.4", "status": "success", "details": "blocked IP 10.10.1.3 after IDS alert"}
+{"timestamp": "2025-06-29T13:34:04.000Z", "user_id": "B", "action": "login", "resource": "vpn", "resource_id": "", "ip_address": "10.10.1.3", "status": "fail", "details": "blocked by firewall"}
+{"timestamp": "2025-06-29T13:36:42.000Z", "user_id": "A", "action": "deploy", "resource": "backup", "resource_id": "backup01", "ip_address": "10.10.1.2", "status": "success", "details": "initiated full system backup"}
+{"timestamp": "2025-06-29T13:38:55.000Z", "user_id": "C", "action": "monitor", "resource": "honeypot", "resource_id": "hp001", "ip_address": "10.10.1.4", "status": "success", "details": "logged attacker activity"}
